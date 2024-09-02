@@ -4,7 +4,7 @@ import HomePage from '../pages/HomePage.vue'
 import TimingPage from '../pages/TimingPage.vue'
 
 const routes = [
-  { path: '/', component: HomePage },
+  { path: '/', component: TimingPage },
   { path: '/timing', component: TimingPage },
 ]
 
