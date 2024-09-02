@@ -42,6 +42,23 @@
         </Menu>
         </header>
 
+                <div>
+            jonas
+            <input type="file"
+                id="camera"
+                name="camera"
+                accept="image/*"
+                capture="user"
+            />
+
+            <input type="file"
+                id="picture"
+                name="picture"
+                accept="image/*"
+                capture="environment"
+            />
+        </div>
+
 
         <ul role="list" class="divide-y divide-white/5">
         <li v-for="deployment in deployments" :key="deployment.id" class="relative flex items-center space-x-4 px-4 py-4 sm:px-6 lg:px-8">
@@ -71,6 +88,7 @@
             <ChevronRightIcon class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
         </li>
         </ul>
+
     </main>
 
     <aside class="bg-black/10 lg:fixed lg:bottom-0 lg:right-0 lg:top-16 lg:w-96 lg:overflow-y-auto lg:border-l lg:border-white/5">
