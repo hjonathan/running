@@ -42,6 +42,23 @@
         </Menu>
         </header>
 
+                <div>
+            jonas
+            <input type="file"
+                id="camera"
+                name="camera"
+                accept="image/*"
+                capture="user"
+            />
+
+            <input type="file"
+                id="picture"
+                name="picture"
+                accept="image/*"
+                capture="environment"
+            />
+        </div>
+
 
         <ul role="list" class="divide-y divide-white/5">
         <li v-for="deployment in deployments" :key="deployment.id" class="relative flex items-center space-x-4 px-4 py-4 sm:px-6 lg:px-8">
